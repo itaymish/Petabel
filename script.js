@@ -18,6 +18,5 @@ function submit() {
   if (date != "" && time != "") {
     firebase.database().ref().child("Customers").child(num).update({"Next treatment": date + ", " + time});
     alert("thank you!");
-    location.reload();
   }
 }
