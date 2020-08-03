@@ -17,6 +17,5 @@ function submit() {
   var time = document.getElementById('time').value;
   if (date != "" && time != "") {
     firebase.database().ref().child("Customers").child(num).update({"Next treatment": date + ", " + time});
-    location.reload();
   }
 }
