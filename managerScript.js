@@ -22,7 +22,7 @@ var firebaseConfig = {
         console.log(snapshot.val());
     });
     firebase.database().ref().child("Customers").child("1304").on('value', function (snapshot) {
-        document.getElementById("nom-treatment").innerHTML = snapshot.val().NextTreatment;
+        document.getElementById("noam-treatment").innerHTML = snapshot.val().NextTreatment;
         console.log(snapshot.val());
     });
     firebase.database().ref().child("Customers").child("0407").on('value', function (snapshot) {
