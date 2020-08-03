@@ -49,3 +49,6 @@ body {
   font-size: 75px;
   border-radius: 50px;
 }
+::placeholder {
+  color: white;
+}
