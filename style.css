@@ -1,0 +1,51 @@
+body {
+  background: #24dde3;
+  font-family: Arial;
+  color: white;
+  height: 100%;
+  text-align: center;
+  font-size: 75px;
+}
+* {
+  box-sizing: border-box;
+}
+#hl {
+  color: white;
+}
+#lin {
+  color: white;
+}
+#ld {
+  color: white;
+}
+#lt {
+  color: white;
+}
+#submit {
+  color: white;
+  border-color: white;
+  background-color: #24dde3;
+  font-size: 75px;
+  border-radius: 50px;
+}
+#time {
+  color: white;
+  border-color: white;
+  background-color: #24dde3;
+  font-size: 75px;
+  border-radius: 50px;
+}
+#date {
+  color: white;
+  border-color: white;
+  background-color: #24dde3;
+  font-size: 75px;
+  border-radius: 50px;
+}
+#itishnum {
+  color: white;
+  border-color: white;
+  background-color: #24dde3;
+  font-size: 75px;
+  border-radius: 50px;
+}
